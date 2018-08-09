@@ -138,39 +138,39 @@ body {
   }
   
   /* portfolio page */
-  
+
   .work {
-    position: relative;
+    display: inline-block;
     float: left;
     width: 274px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 20px 20px 0px;
     overflow: auto;
   }
   
   .work img {
+    display: block;
+    float: left;
     width: 100%;
-    border: 0 none;
     margin: 20px 60px 20px 60px;
     opacity: 0.8;
   }
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
-    width: 274px;
-    padding: 0px;
-    margin-bottom: 0;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
     font-weight: 300;
     line-height: 30px;
     color: #fff;
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
-    opacity: 0.9;
+    opacity: 0.7;
   }
   
   .auth-image {
-    float: center;
+    float: left;
     width: 200px;
     height: auto;
     margin-top: 10px;
